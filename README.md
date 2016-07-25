@@ -5,9 +5,9 @@ Installing is simple
 
 1. Edit your theme's style.css and append the contents of the [style.css](./style.css) file;  
 
-2. Download and upload [stripecards.png](./stripecasrds.png) image into your /templates/<your_template>/media/ directory;  
+2. Download and upload [stripecards.png](./stripecasrds.png) image into your /templates/ your_template /media/ directory;  
 
-3. Get the Stripe [php library](https://github.com/stripe/stripe-php), and upload it into the /includes/modules/payments/ directory where the <i>mod.stripe.php<i> file is, renaming the direcftory to <b>stripe</b> (important);
+3. Get the Stripe [php library](https://github.com/stripe/stripe-php), and upload it into the /includes/modules/payments/ directory where the <i>mod.stripe.php</i> file is, renaming the directory to <b>stripe</b> (important);
 
 4. Download and upload [mod.stripe.php](./includes/modules/payments/mod.stripe.php) into your /includes/modules/payments/ directory;
 
