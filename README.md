@@ -7,6 +7,10 @@ Installing is simple
 
 2. Download and upload [stripecards.png](./stripecasrds.png) image into your /templates/ your_template /media/ directory;  
 
+3. I use the vldTheme theme system, which uses Bootstrap. My plugin uses the [Bootstrap3 Dialog](https://github.com/nakupanda/bootstrap3-dialog) plugin for retrieving details from Stripe, if you use bootstrap, please add  
+https://cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.34.7/css/bootstrap-dialog.min.css and https://cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.34.7/js/bootstrap-dialog.min.js
+to your themes footer.tpl file(s) after the main jquery js file;  
+
 3. Get the Stripe [php library](https://github.com/stripe/stripe-php), and upload it into the /includes/modules/payments/ directory where the <i>mod.stripe.php</i> file is, renaming the directory to <b>stripe</b> (important);
 
 4. Download and upload [mod.stripe.php](./includes/modules/payments/mod.stripe.php) into your /includes/modules/payments/ directory;
