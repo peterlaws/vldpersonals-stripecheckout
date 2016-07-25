@@ -1,0 +1,9 @@
+
+
+.customButton {
+    width: 175px;
+    height: 127px;
+    border: 0;
+
+    background: url(../images/stripecards.png);
+}
