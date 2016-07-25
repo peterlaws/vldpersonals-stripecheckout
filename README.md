@@ -1,5 +1,5 @@
 # vldPersonals Stripe Checkout
-My Stripe Checkout Gateway for vldPersonals - It will process one-time payments, no subscriptions or saving cards and users to Strip.
+My Stripe Checkout Gateway for vldPersonals - It will process one-time payments, no subscriptions or saving cards and users to Stripe.
 
 Installing is simple
 
