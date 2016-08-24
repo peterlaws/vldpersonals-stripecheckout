@@ -228,7 +228,7 @@ function stripe_payment_form($package_id, $package_name, $package_amount, $packa
         handler.open({
             name: \'' . $PREFS->conf["app_title"] . '\',
             email: \'' . $SESSION->conf["member_email"] . '\',
-            allowrememberme: false,
+            allowRememberMe: false,
             description: \'' . htmlentities2utf8($package_name) . ' to '. $SESSION->conf["member_name"].'\',
             amount: ' . $package_amount*100 . ',
             currency: \'' . $PREFS->conf["gateways"]["stripe"]["stripe_currency"] . '\'
